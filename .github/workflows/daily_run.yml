@@ -1,8 +1,9 @@
 name: Daily NSE Screener
 
 on:
+  push:
   schedule:
-    - cron: '30 13 * * *' # Runs at 13:30 UTC -> 19:00 IST
+    - cron: '30 13 * * *'
   workflow_dispatch: # Allows you to click a button to run it manually
 
 jobs:
