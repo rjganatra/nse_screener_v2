@@ -12,7 +12,7 @@ def main():
     
     # For testing, just run the first 20 so it doesn't take hours. 
     # Remove the [:20] when you are ready to scan all 500.
-    test_universe = tickers[:20] 
+    test_universe = tickers
     
     passed_stocks = []
     
